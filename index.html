@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/1351bd573d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-between align-items-center"
+                id="navbarTogglerDemo01">
+                <a class="navbar-brand " href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Create a new post
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="m-0">Caption:</p>
+                                        <textarea name="" id="" cols="60" rows="4"></textarea>
+                                        <button class="border border-0"><i class="fa-solid fa-camera"></i></button>
+                                        <button class="border border-0"><i
+                                                class="fa-solid fa-location-dot"></i></button>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-success">Publish</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item ps-1">
+
+                        <!--Dropdown-->
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-gear"></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Accessibility</a></li>
+                                <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-danger" href="#">Log out</a></li </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <nav>
+        <ul class="nav nav-pills mb-3 d-flex justify-content-center align-items-center" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active bg-light " id="pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                    aria-selected="true">
+                    <i class="fas fa-th"></i>
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link bg-light " id="pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                    aria-selected="false">
+                    <i class="fa-solid fa-square"></i>
+                </button>
+            </li>
+   
+    
+    </ul>
+ </nav>
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+            tabindex="0">
+            <div class="container-fluid">
+                <div class="row py-1">
+                    <div class="col-4 px-1">
+                        <img class="img-fluid " src="https://picsum.photos/id/230/700/300" alt="">
+                    </div>
+                    <div class="col-4 px-1">
+                        <img class="img-fluid" src="https://picsum.photos/id/231/700/300" alt="">
+                    </div>
+                    <div class="col-4 px-1">
+                        <img class="img-fluid" src="https://picsum.photos/id/232/700/300" alt="">
+                    </div>
+                </div>
+
+                <div class="row py-1">
+                    <div class="col-4 p-0 px-1">
+                        <img class="img-fluid" src="https://picsum.photos/id/233/700/300" alt="">
+                    </div>
+                    <div class="col-4 p-0 px-1">
+                        <img class="img-fluid" src="https://picsum.photos/id/234/700/300" alt="">
+                    </div>
+                    <div class="col-4 p-0 px-1">
+                        <img class="img-fluid" src="https://picsum.photos/id/235/700/300" alt="">
+                    </div>
+                </div>
+
+                <div class="row py-1">
+                    <div class="col-4 px-1">
+                        <img class="img-fluid" src="https://picsum.photos/id/236/700/300" alt="">
+                    </div>
+                    <div class="col-4 px-1">
+                        <img class="img-fluid" src="https://picsum.photos/id/237/700/300" alt="">
+                    </div>
+                    <div class="col-4 px-1">
+                        <img class="img-fluid" src="https://picsum.photos/id/238/700/300" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="tab-pane fade " id="pills-profile" role="tabpanel"
+            aria-labelledby="pills-profile-tab" tabindex="0">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <div class="card border mb-3 w-40">
+                    <div class="card-header bg-transparent d-flex justify-content-between">
+                        <h5>Un hermoso paisaje</h5>
+                        <span>9/20</span>
+
+                    </div>
+                    <div class="card-body p-0">
+                        <img src="https://picsum.photos/id/230/800/500" alt="">
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <b>222 Likes</b>
+                        <p>El dia de mi aniversario ire a este lugar</p>
+                    </div>
+                </div>
+
+                <div class="card border mb-3 w-40">
+                    <div class="card-header bg-transparent d-flex justify-content-between">
+                        <h5>Un hermoso paisaje</h5>
+                        <span>5/20</span>
+
+                    </div>
+                    <div class="card-body p-0">
+                        <img src="https://picsum.photos/id/231/800/500" alt="">
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <b>100 Likes</b>
+                        <p>En vacaciónes</p>
+                    </div>
+                </div>
+
+                <div class="card border mb-3 w-40">
+                    <div class="card-header bg-transparent d-flex justify-content-between">
+                        <h5>Luz</h5>
+                        <span>1/20</span>
+
+                    </div>
+                    <div class="card-body p-0">
+                        <img src="https://picsum.photos/id/232/800/500" alt="">
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <b>700 Likes</b>
+                        <p>Foto artistica</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
